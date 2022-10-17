@@ -4,6 +4,7 @@
 
 /**
  * main - Range of digits
+ *
  * Return: Always 0
  */
 int main(void)
@@ -14,17 +15,15 @@ int main(void)
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-
 	a = n % 10;
-
+	printf("Last digit of %d is %d", n, a);
 	if (a > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5/n", n, a);
+		printf("and is greater than 5")
 	}
-	else if (a == 0)
+	if (a == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, a);
+		printf("and is greater than 5")
 	return (0);
 
-
-	}
+}
